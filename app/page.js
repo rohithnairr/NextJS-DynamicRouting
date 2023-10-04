@@ -13,7 +13,7 @@ export default async function Products(){
  
   return(
       <>
-      <h1>Products</h1>
+      <h1 className='text-bold text-4xl text-center mt-8 mb-8'>Products</h1>
       <div className="grid gap-4 grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-cols-4">
       {
           
