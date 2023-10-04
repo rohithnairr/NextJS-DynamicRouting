@@ -4,13 +4,13 @@ export default function View({ id, title, description, price, rating, thumbnail 
     return (
       <div className="antialiased">
   
-      <div classNameName="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
         <div className="flex flex-col md:flex-row -mx-4">
           <div className="md:flex-1 px-4">
-            <div x-data="{ image: 1 }" x-cloak>
+            <div>
               <div className="h-64 md:h-80 rounded-lg bg-gray-100 mb-4">
                 <div x-show="image === 1" className="h-64 md:h-80 rounded-lg bg-gray-100 mb-4 flex items-center justify-center">
-                  <span className="text-5xl"><img classNameName="h-full w-full object-cover object-center" src={thumbnail} alt={title}/></span>
+                  <span className="text-5xl"><img className="h-full w-full object-cover object-center" src={thumbnail} alt={title}/></span>
                 </div>
               </div>
             </div>
