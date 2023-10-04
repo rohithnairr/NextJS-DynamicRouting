@@ -11,9 +11,7 @@ export default async function Products(){
    
     return(
         <>
-        <h1 className='text-bold'>Products</h1>
-        <div className="grid gap-4 grid-cols-1 grid-rows-1 md:grid-cols-2 lg:grid-cols-4">
-            
+       
         {
             
             products.length > 0 && (
@@ -23,7 +21,7 @@ export default async function Products(){
             )
            
         }
-         </div>
+       
         </>
     )
 }
