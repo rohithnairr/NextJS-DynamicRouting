@@ -1,4 +1,4 @@
-import Product from '../../components/Product';
+import Product from '../components/Product';
 
 async function getProducts(){
     const res = await fetch('https://dummyjson.com/products')
